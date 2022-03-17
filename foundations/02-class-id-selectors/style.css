@@ -1,0 +1,25 @@
+.red{
+    background-color: lightcoral;
+    color: black;
+    font-family: Lato, Verdana, DejaVu Sans, sans-serif;
+}
+
+.bold{
+    font-size: 24px;
+}
+
+#big-blue{
+    color: blue;
+    font-size: 36px;
+}
+
+#bold-green{
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body{
+    background-color: white;
+}
