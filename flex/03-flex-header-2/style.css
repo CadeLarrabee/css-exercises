@@ -10,8 +10,10 @@ body {
 
 .header {
   background: white;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(231, 217, 217);
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -45,4 +47,23 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/*.left-aligneditems {
+  display: flex;
+  justify-content: left;
+}
+.right-aligneditems {
+  display: flex;
+  justify-content: right;
+}*/
