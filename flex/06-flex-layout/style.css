@@ -44,16 +44,12 @@ input {
 .left-links{
   display:flex;
   gap: 10px;
-  align-items:space-between;
-  font-family: Roboto, sans-serif;
   list-style-type: none;
 }
 
 .right-links{
   display:flex;
   gap: 10px;
-  align-items:space-between;
-  font-family: Roboto, sans-serif;
   list-style-type: none;
   padding-right: 40px;
 }
